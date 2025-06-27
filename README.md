@@ -1,5 +1,7 @@
 # ☁️ Weather App - Aplicativo de Clima
 
+[WeatherApp - Click here](https://thiagotorresferrao.github.io/Weather-App/)
+
 🌦️ **Visualize current weather and forecast for any city worldwide!**  
 🌍 **Veja o clima atual de qualquer cidade do mundo em tempo real!**
 
@@ -38,15 +40,15 @@ This is a web application built using pure HTML, CSS, and JavaScript. It integra
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ThiagoTorresFerrao/weather-app.git
+   git clone https://github.com/ThiagoTorresFerrao/Weather-App
 
 
     Abra o index.html no seu navegador.
     Recomendado: use um servidor local como a extensão Live Server no VS Code.
 
-    Obtenha uma chave de API gratuita no OpenWeatherMap.
+    Obtenha uma chave de API gratuita no OpenWeatherMap ou utilize a minha chave já cadastrada.
 
-    Substitua YOUR_API_KEY_HERE no arquivo script.js pela sua chave.
+    Substitua a key no arquivo script.js pela sua chave.
 
 🧠 Aprendizados | What I Learned
 
@@ -65,13 +67,7 @@ This is a web application built using pure HTML, CSS, and JavaScript. It integra
 Este projeto foi desenvolvido como parte de estudos de front-end e integração com APIs.
 Pode ser expandido com novas funcionalidades como:
 
-    Previsão para 5 dias
-
     Localização automática via geolocalização
-
-    Adição de ícones e animações climáticas
-
-    Dark mode
 
 👨‍💻 Autor | Author
 
@@ -81,3 +77,10 @@ LinkedIn • Portfólio
 
 Este projeto é de uso livre para fins educacionais.
 This project is open for educational and non-commercial use.
+
+## 🌐 Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-f-torres/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ThiagoTorresFerrao)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/thiagotorresferrao/)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Thiago_Torres)
