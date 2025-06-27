@@ -7,19 +7,26 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* trocado de height para min-height */
+  padding: 20px; /* adicionado para evitar corte lateral em mobile */
 }
 
 .container {
   background-color: white;
-  padding: 30px;
+  padding: 30px 20px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  width: 300px;
+  width: 100%;
+  max-width: 400px; /* aumentado para telas maiores */
 }
 
 input {
@@ -43,4 +50,15 @@ button {
 
 .result {
   margin-top: 20px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 360px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
