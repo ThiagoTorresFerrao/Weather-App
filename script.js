@@ -1,4 +1,4 @@
-const apiKey = "ecf65be985adab954658473f461921b0";
+const apiKey = "LOCAL DA CHAVE";    /* ------- Obtenha a chave em https://openweathermap.org/ ------- */
 
 function getWeather() {
   const city = document.getElementById("cityInput").value;
